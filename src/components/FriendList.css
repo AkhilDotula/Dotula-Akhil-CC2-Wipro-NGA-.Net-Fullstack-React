@@ -1,0 +1,73 @@
+/* src/components/FriendList.css */
+.friendlist-wrapper {
+    background-color: #e9ecef;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .friendlist-wrapper h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+  
+  .friend-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .friend-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .friend-form button {
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .friend-form button:hover {
+    background-color: #214d7a;
+  }
+  
+  .friendlist-wrapper ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friendlist-wrapper li {
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+  }
+  
+  .friendlist-wrapper li:last-child {
+    border-bottom: none;
+  }
+  
+  .friendlist-wrapper li span {
+    flex: 1;
+  }
+  
+  .friendlist-wrapper li button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .friendlist-wrapper li button:hover {
+    background-color: #214d7a;
+  }
+  

@@ -1,0 +1,51 @@
+/* src/components/ExpenseSummary.css */
+.summary-container {
+    background-color: #f8fafc;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  
+  .summary-container h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+  
+  .summary-container p {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .summary-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+  }
+  
+  .summary-container th,
+  .summary-container td {
+    border: 1px solid var(--border-color);
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .summary-container th {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .balance-positive {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .balance-negative {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .help-text {
+    font-style: italic;
+    color: #333;
+  }
+  
